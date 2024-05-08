@@ -1,0 +1,338 @@
+/* CSS TARGETING ALL THE PROPERTIES ON THE HOME PAGE */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #ffffff;
+}
+
+/* ANIMATION FOR FADE IN SCROLL*/
+.animating-container {
+	position: relative;
+	opacity: 0;
+	transition: opacity 500ms ease-out 100ms;
+}
+
+.animating-container.appear {
+	opacity: 1;
+}
+/* END OF ANIMATION CSS FOR FADE IN SCROLL */
+
+/* CSS FOR NAVIGATION BAR */
+header {
+	position: sticky;
+	top: 0;
+	z-index: 999; /* Ensures the header stays on top of other content */
+	background-color: #ffffff;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
+	padding: 0 5rem;
+}
+
+nav img {
+	height: 90px;
+	width: 270px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-family: 'Be Vietnam Pro', sans-serif;
+	font-weight: 500;
+	margin-right: 2rem;
+	color: #ffffff;
+
+	display: flex;
+	padding: 0.8rem 2rem;
+	border-radius: 3px;
+	background-color: rgb(25, 55, 77, 0.9);
+	transition: all 0.5s ease;
+	justify-content: center;
+	align-items: center;
+	gap: 1.5rem;
+	border: none;
+}
+
+nav ul li a .icon {
+	height: 2rem;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav ul li a .icon span {
+	background: black;
+	border-radius: 100%;
+	padding: 0rem;
+
+	width: 0rem;
+	height: 0rem;
+
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+
+	transform: rotate(-180deg);
+
+	transition: all 0.5s ease;
+}
+
+nav ul li a:hover .icon span {
+	transform: rotate(0deg);
+
+	border-radius: 100%;
+	padding: 0.5rem;
+	width: 2rem;
+	height: 2rem;
+}
+
+/* END OF CSS FOR NAVIGATION BAR */
+
+/* INTRODUCTION SECTION */
+.intro-div {
+	position: relative;
+}
+
+.intro-div img {
+	width: 100%;
+	height: 800px;
+	object-fit: fill;
+}
+
+.intro-div h2 {
+	font-size: 3.2rem;
+	font-weight: 800;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 3.8rem;
+	background-color: rgb(0, 0, 0, 0.7);
+	padding: 4rem 4rem;
+	border: none;
+	border-radius: 4px;
+
+	text-align: start;
+	position: absolute;
+	bottom: 22%;
+	right: 0;
+	width: 50%;
+	color: #ffffff;
+
+	animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+/* END OF INTRODUCTION SECTION */
+
+/* ABOUT SECTION */
+/* targeting scroll highlight animation */
+.about-div1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	height: 120vh;
+	margin-left: 8rem;
+	margin-right: 15rem;
+	margin-bottom: 5rem;
+}
+
+.text {
+	font-size: 7vw;
+	letter-spacing: 0.15em;
+	line-height: 7rem;
+	margin: 0;
+
+	width: 100%;
+	color: rgb(35, 31, 32, 0.3);
+	background: linear-gradient(to right, #b6b6b6, #231f20) no-repeat;
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-size: 0%;
+	transition: background-size cubic-bezier(0.1, 0.5, 0.5, 1) 0.5s;
+
+	border-bottom: 1px solid #2f2b28;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	position: relative;
+}
+
+.about-div1 span {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #003d60;
+	color: #d9d9d9;
+
+	clip-path: polygon(0 50%, 100% 50%, 100% 50%, 0 50%);
+	transform-origin: center;
+	transition: all cubic-bezier(0.1, 0.5, 0.5, 1) 0.4s;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.text:hover > span {
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+/* end of scroll highlight animation */
+/* end of about div 1 */
+
+/* Beginning of about div 2 */
+.about-div2 {
+	background-color: rgb(25, 55, 77, 0.8);
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	height: 80vh;
+}
+
+.about-div2 img {
+	width: 600px;
+	height: 430px;
+	object-fit: cover;
+	margin-top: 4rem;
+	margin-left: 4rem;
+	transition: transform 0.9s ease-in-out; /* Smooth transition */
+	transform-origin: center center; /* Ensures the zoom effect is centered */
+}
+
+.about-div2 img:hover {
+	transform: scale(1.05); /* Zoom out by 20% */
+}
+
+.about-first-principle {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: start;
+	font-family: 'Be Vietnam Pro', sans-serif;
+	margin-top: 1rem;
+	margin-right: 3rem;
+}
+
+.about-first-principle h2 {
+	font-size: 3rem;
+	font-weight: 700;
+	color: #ffffff;
+	margin-bottom: 2rem;
+}
+
+.about-first-principle p {
+	font-size: 1.1rem;
+	font-weight: 500;
+	color: #ffffff;
+	line-height: 1.6rem;
+	margin-bottom: 1.2rem;
+}
+/* End of about div 2 */
+/* END OF ABOUT SECTION */
+
+/* POLARIZATION SECTION */
+.main-polarize-div {
+	margin: 5rem 0;
+	padding: 4rem 8rem;
+	font-family: 'Be Vietnam Pro', sans-serif;
+	background-color: rgb(25, 55, 77, 0.2);
+}
+
+.polarize-header-div {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.polarize-header-div h2 {
+	font-size: 2.2rem;
+	font-weight: 700;
+	margin-bottom: 2rem;
+	color: #000000;
+}
+
+.polarize-header-div h2 span {
+	font-size: 2.2rem;
+	font-weight: 800;
+	color: #000000;
+}
+
+.polarize-header-div h4 {
+	font-size: 1.2rem;
+	font-weight: 500;
+	color: #000000;
+	width: 85%;
+	line-height: 1.8rem;
+}
+
+.polarize-details-main-div {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 3rem;
+}
+
+.polarize-image {
+	position: relative;
+}
+
+.polarize-image img {
+	width: 100%;
+	height: 310px;
+	filter: brightness(85%);
+	/* object-fit: cover; */
+}
+
+.polarize-image h4 {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.8);
+
+	bottom: 1%;
+	left: 0;
+	font-size: 2.3rem;
+	color: #ffffff;
+	padding: 1.5rem 2.5rem;
+	width: 100%;
+}
+
+.polarize-details-div {
+	background-color: #ffffff;
+	transition: transform 0.9s ease-in-out; /* Smooth transition */
+	transform-origin: center center; /* Ensures the zoom effect is centered */
+}
+
+.polarize-details-div:hover {
+	transform: scale(1.05); /* Zoom out by 20% */
+}
+
+.polarize-details-div p {
+	font-size: 1.2rem;
+	color: #003d60;
+	padding: 0.7rem 1rem;
+}
+/* END OF POLARIZATION SECTION */
