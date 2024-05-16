@@ -38,7 +38,7 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
-	padding: 0 5rem;
+	padding: 0 3rem;
 }
 
 nav img {
@@ -53,20 +53,20 @@ nav ul {
 
 nav ul li a {
 	text-decoration: none;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	font-family: 'Be Vietnam Pro', sans-serif;
 	font-weight: 500;
-	margin-right: 2rem;
+	margin-right: 0.8rem;
 	color: #ffffff;
 
 	display: flex;
-	padding: 0.8rem 2rem;
+	padding: 0.6rem 1rem;
 	border-radius: 3px;
 	background-color: rgb(25, 55, 77, 0.9);
 	transition: all 0.5s ease;
 	justify-content: center;
 	align-items: center;
-	gap: 1.5rem;
+	gap: 1rem;
 	border: none;
 }
 
@@ -91,8 +91,8 @@ nav ul li a .icon span {
 	justify-content: center;
 
 	transform: rotate(-180deg);
-
 	transition: all 0.5s ease;
+	opacity: 0;
 }
 
 nav ul li a:hover .icon span {
@@ -102,6 +102,7 @@ nav ul li a:hover .icon span {
 	padding: 0.5rem;
 	width: 2rem;
 	height: 2rem;
+	opacity: 1;
 }
 
 /* END OF CSS FOR NAVIGATION BAR */
@@ -114,7 +115,8 @@ nav ul li a:hover .icon span {
 .intro-div img {
 	width: 100%;
 	height: 800px;
-	object-fit: fill;
+	object-fit: cover;
+	filter: brightness(90%);
 }
 
 .intro-div h2 {
@@ -129,8 +131,8 @@ nav ul li a:hover .icon span {
 
 	text-align: start;
 	position: absolute;
-	bottom: 22%;
-	right: 0;
+	top: 2%;
+	left: 0;
 	width: 50%;
 	color: #ffffff;
 
@@ -158,8 +160,9 @@ nav ul li a:hover .icon span {
 	align-items: flex-start;
 	height: 120vh;
 	margin-left: 8rem;
-	margin-right: 15rem;
+	margin-right: 13rem;
 	margin-bottom: 5rem;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .text {
@@ -213,14 +216,14 @@ nav ul li a:hover .icon span {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	justify-content: center;
-	height: 80vh;
+	height: 88vh;
 }
 
 .about-div2 img {
 	width: 600px;
 	height: 430px;
 	object-fit: cover;
-	margin-top: 4rem;
+	margin-top: 6rem;
 	margin-left: 4rem;
 	transition: transform 0.9s ease-in-out; /* Smooth transition */
 	transform-origin: center center; /* Ensures the zoom effect is centered */
@@ -335,4 +338,235 @@ nav ul li a:hover .icon span {
 	color: #003d60;
 	padding: 0.7rem 1rem;
 }
+
+.filter-noise-div {
+	background-color: #ffffff;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.filter-noise-div h2 {
+	font-size: 1.7rem;
+	font-weight: 700;
+	background-color: rgb(25, 55, 77, 0.8);
+	color: #fff;
+	line-height: 1.5rem;
+	letter-spacing: -0.8px;
+
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.filter-noise-images {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin-bottom: 1rem;
+	padding: 2rem 4rem;
+}
+
+.noise-image-1-div img,
+.noise-image-2-div img {
+	width: 670px;
+	height: 400px;
+	object-fit: cover;
+	border-radius: 3px;
+	filter: brightness(90%);
+	transition: transform 0.5s ease-in-out; /* Smooth transition */
+	transform-origin: center center; /* Ensures the zoom effect is centered */
+}
+
+.noise-image-1-div img:hover,
+.noise-image-2-div img:hover {
+	transform: scale(1.05); /* Zoom out by 20% */
+}
+
+.noise-image-2 {
+	margin-left: 2.6rem;
+}
+
+.filter-noise-div h3 {
+	font-size: 1.3rem;
+	font-weight: 700;
+	color: #fff;
+	background-color: rgb(25, 55, 77, 0.8);
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	text-align: center;
+}
 /* END OF POLARIZATION SECTION */
+
+/* BEGINNING OF TRADITIONAL FINANCIAL PLANNING SECTION */
+.traditional-div {
+	position: relative;
+	margin-bottom: 0;
+}
+
+.traditional-div img {
+	width: 100%;
+	height: 700px;
+	object-fit: cover;
+}
+
+.traditional-div h2 {
+	font-size: 2.3rem;
+	font-weight: 700;
+	color: #c6c4c4;
+	background-color: rgb(0, 0, 0, 0.9);
+	font-family: 'Montserrat', sans-serif;
+
+	position: absolute;
+	right: 0;
+	width: 60%;
+	bottom: 0;
+
+	padding: 2rem 2.2rem;
+}
+/* END OF TRADITIONAL FINANCIAL PLANNING SECTION */
+
+/* BEGINNING OF GESTALT PLANNING PROCESS SECTION  */
+.gestalt-planning-div {
+	padding-top: 4rem;
+	padding-bottom: 1rem;
+	background-color: rgb(25, 55, 77, 0.2);
+}
+
+.gestalt-planning-div h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.8rem;
+	font-weight: 700;
+	color: #fff;
+	background-color: rgb(25, 55, 77, 0.8);
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+
+	padding: 1.5rem 1.5rem;
+	text-align: center;
+}
+
+.gestalt-planning-inner-div {
+	margin-left: 7rem;
+	margin-right: 7rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 1rem;
+}
+
+.gestalt-planning-inner-div img {
+	width: 640px;
+	height: 400px;
+	filter: brightness(90%);
+	object-fit: cover;
+	border-radius: 3px;
+	transition: transform 0.6s ease-in-out; /* Smooth transition */
+	transform-origin: center center; /* Ensures the zoom effect is centered */
+}
+
+.gestalt-planning-inner-div img:hover {
+	transform: scale(1.03); /* Zoom out by 20% */
+}
+
+.gestalt-planning-perks {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.gestalt-planning-perks h3 {
+	font-family: 'Be Vietnam Pro', sans-serif;
+	font-size: 2.5rem;
+	font-family: 700;
+	padding-left: 2rem;
+}
+
+.discover-button {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+
+.discover-button h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.8rem;
+	font-weight: 700;
+	color: #000000;
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+
+	padding: 1.5rem 1.5rem;
+	text-align: center;
+}
+
+.discover-button a {
+	text-decoration: none;
+	font-size: 1rem;
+	font-family: 'Be Vietnam Pro', sans-serif;
+	font-weight: 500;
+	margin-right: 0.8rem;
+	color: #ffffff;
+
+	display: flex;
+	padding: 0.6rem 1rem;
+	border-radius: 3px;
+	background-color: rgb(25, 55, 77, 0.9);
+	transition: all 0.5s ease;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	border: none;
+}
+
+.discover-button a .icon {
+	height: 2rem;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.discover-button a .icon span {
+	background: black;
+	border-radius: 100%;
+	padding: 0rem;
+
+	width: 0rem;
+	height: 0rem;
+
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+
+	transform: rotate(-180deg);
+	transition: all 0.5s ease;
+	opacity: 0;
+}
+
+.discover-button a:hover .icon span {
+	transform: rotate(0deg);
+
+	border-radius: 100%;
+	padding: 0.5rem;
+	width: 2rem;
+	height: 2rem;
+	opacity: 1;
+}
+
+/* END OF GESTALT PLANNING PROCESS SECTION */
