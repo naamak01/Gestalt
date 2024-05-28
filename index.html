@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" href="/logos/gestalt-favico.svg" />
 
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,12 +23,14 @@
 	</head>
 
 	<!-- BODY -->
-	<body>
+	<body onload="slider()">
 		<!-- HEADER SECTION -->
 		<header>
 			<nav>
 				<a href="/index.html"
-					><img src="/logos/M E T H O D (5).png" alt="Logo of Gestalt Method"
+					><img
+						src="/logos/LOGO_Gestalt-Financial-Group.svg"
+						alt="Logo of Gestalt Method"
 				/></a>
 
 				<ul>
@@ -77,10 +80,11 @@
 			<section id="intro">
 				<div class="intro-div">
 					<img
+						id="intro-image-slides"
 						src="/images/Happy-family.png"
 						alt="Image of happy family of grandparents, in-law and grand daughter relaxing and having a good time by the lake"
 					/>
-					<h2>A FIRST PRINCIPLE APPROACH TO RETIREMENT PLANNING</h2>
+					<h2 id="intro-text">RETIREMENT PLANNING THAT'S UNDERSTANDABLE!</h2>
 				</div>
 			</section>
 			<!-- End of introduction section -->
@@ -88,10 +92,11 @@
 			<!-- about section -->
 			<section id="about">
 				<div class="about-div1">
-					<h1 class="text">WELCOME<span>IMPROVING OUR</span></h1>
-					<h1 class="text">TO THE<span>MENTAL</span></h1>
-					<h1 class="text">STARLETS<span>FORTITUDE AND</span></h1>
-					<h1 class="text">CAMP<span>TALENT</span></h1>
+					<h1 class="text">A FIRST<span>A FIRST</span></h1>
+					<h1 class="text">PRINCIPLE<span>PRINCIPLE</span></h1>
+					<h1 class="text">APPROACH TO<span>APPROACH TO</span></h1>
+					<h1 class="text">RETIREMENT<span>RETIREMENT</span></h1>
+					<h1 class="text">PLANNING<span>PLANNING</span></h1>
 				</div>
 
 				<div class="about-div2">
@@ -358,7 +363,7 @@
 
 		<!-- Script adding Home.js scripting to html -->
 		<script src="/about.js"></script>
-		<script src="/page-scroll.js"></script>
+		<script src="/image-scroll.js"></script>
 		<script src="/scroll-effect.js"></script>
 	</body>
 	<!-- END OF BODY -->
