@@ -42,17 +42,12 @@ nav {
 }
 
 nav img {
-	width: 370px;
-	height: 80px;
-	/* transform: scale(2.1); */
-	padding-left: 5rem;
-	padding-bottom: 0.3rem;
-	padding-top: 0.3rem;
+	width: 430px;
+	height: 60px;
+	transform: scale(1.1);
+	padding-left: 4rem;
+	padding-top: 0.4rem;
 }
-
-/* nav img svg {
-	color: rgba(25, 55, 77, 0.2);
-} */
 
 nav ul {
 	list-style: none;
