@@ -164,11 +164,10 @@ h2#intro-text {
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-	height: 130vh;
+	height: 120vh;
 	margin-left: 8rem;
 	margin-right: 13rem;
-	margin-top: 2rem;
-	margin-bottom: 5rem;
+	margin-bottom: 2rem;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -575,7 +574,7 @@ h2#intro-text {
 .discover-button a:hover .icon span {
 	transform: rotate(0deg);
 	font-weight: 800;
-	font-size: 1rem;
+	font-size: 1.5rem;
 
 	border-radius: 100%;
 	padding: 0.5rem;
