@@ -84,6 +84,7 @@ nav ul li a .icon {
 
 nav ul li a .icon span {
 	background: #8c9aa9;
+	color: rgb(25, 55, 77, 0.9);
 	border-radius: 100%;
 	padding: 0rem;
 
@@ -554,6 +555,7 @@ h2#intro-text {
 
 .discover-button a .icon span {
 	background: #8c9aa9;
+	color: rgb(25, 55, 77, 0.9);
 	border-radius: 100%;
 	padding: 0rem;
 
