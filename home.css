@@ -84,6 +84,7 @@ nav ul li a .icon {
 
 nav ul li a .icon span {
 	background: #8c9aa9;
+	color: rgb(25, 55, 77, 0.9);
 	border-radius: 100%;
 	padding: 0rem;
 
@@ -101,7 +102,8 @@ nav ul li a .icon span {
 
 nav ul li a:hover .icon span {
 	transform: rotate(0deg);
-
+	font-weight: 800;
+	font-size: 1rem;
 	border-radius: 100%;
 	padding: 0.5rem;
 	width: 40px;
@@ -554,6 +556,7 @@ h2#intro-text {
 
 .discover-button a .icon span {
 	background: #8c9aa9;
+	color: rgb(25, 55, 77, 0.9);
 	border-radius: 100%;
 	padding: 0rem;
 
@@ -571,6 +574,8 @@ h2#intro-text {
 
 .discover-button a:hover .icon span {
 	transform: rotate(0deg);
+	font-weight: 800;
+	font-size: 1rem;
 
 	border-radius: 100%;
 	padding: 0.5rem;
