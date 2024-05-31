@@ -103,7 +103,7 @@ nav ul li a .icon span {
 nav ul li a:hover .icon span {
 	transform: rotate(0deg);
 	font-weight: 800;
-	font-size: 1rem;
+	font-size: 1.5rem;
 	border-radius: 100%;
 	padding: 0.5rem;
 	width: 40px;
@@ -125,7 +125,9 @@ img#intro-image-slides {
 	filter: brightness(80%);
 }
 
-h2#intro-text {
+h2#intro-text,
+h2#traditional-text,
+h3#gestalt-planning2-text {
 	font-size: 3.9rem;
 	font-weight: 800;
 	font-family: 'Montserrat', sans-serif;
@@ -218,25 +220,49 @@ h2#intro-text {
 
 /* Beginning of about div 2 */
 .about-div2 {
-	background-color: rgba(25, 55, 77, 0.8);
+	background-color: rgb(25, 55, 77, 0.2);
+	height: 100vh;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
+	padding-top: 4rem;
+}
+
+.about-div2 h2 {
+	font-size: 2.2rem;
+	font-weight: 800;
+	color: #fff;
+	background-color: rgb(25, 55, 77, 0.8);
+
+	font-family: 'Roboto Mono', monospace;
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+
+	padding-bottom: 0.5rem;
+	padding-top: 0.5rem;
+	text-align: center;
+}
+
+.about-div2-image {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	justify-content: center;
-	height: 88vh;
+	align-items: center;
+	padding-left: 3rem;
 }
 
-.about-div2 img {
-	width: 600px;
+.about-div2-image img {
+	width: 680px;
 	height: 430px;
 	object-fit: cover;
-	margin-top: 6rem;
-	margin-left: 4rem;
+	margin-top: 3rem;
+	border-radius: 4px;
 	transition: transform 0.9s ease-in-out; /* Smooth transition */
 	transform-origin: center center; /* Ensures the zoom effect is centered */
 }
 
-.about-div2 img:hover {
-	transform: scale(1.05); /* Zoom out by 20% */
+.about-div2-image img:hover {
+	transform: scale(1.04); /* Zoom out by 20% */
 }
 
 .about-first-principle {
@@ -249,204 +275,83 @@ h2#intro-text {
 	margin-right: 3rem;
 }
 
-.about-first-principle h2 {
-	font-size: 3rem;
-	font-weight: 700;
-	color: #ffffff;
-	margin-bottom: 2rem;
+/* End of about div 2 */
+
+/* Beginning of about-div3 */
+.about-div3 {
+	height: 170vh;
+	font-family: 'Montserrat', sans-serif;
 }
 
-.about-first-principle p {
-	font-size: 1.1rem;
-	font-weight: 500;
-	color: #ffffff;
-	line-height: 1.6rem;
-	margin-bottom: 1.2rem;
+.text2 {
+	font-size: 6.5vw;
+	letter-spacing: 0.15em;
+	line-height: 7rem;
+	margin: 0;
 }
-/* End of about div 2 */
+
+/* End of about-div3 */
+
 /* END OF ABOUT SECTION */
 
 /* POLARIZATION SECTION */
-.main-polarize-div {
-	margin: 5rem 0;
-	padding: 4rem 8rem;
-	font-family: 'Be Vietnam Pro', sans-serif;
-	background-color: rgba(25, 55, 77, 0.2);
-}
-
-.polarize-header-div {
-	margin-top: 2rem;
+.polarize-main-div {
+	background-color: rgb(25, 55, 77, 0.2);
+	box-shadow: 4px 1px 4px 0 rgba(0, 0, 0, 0.4);
+	height: 105vh;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 	margin-bottom: 2rem;
 }
 
-.polarize-header-div h2 {
-	font-size: 2.2rem;
-	font-weight: 700;
-	margin-bottom: 2rem;
-	color: #000000;
-}
-
-.polarize-header-div h2 span {
-	font-size: 2.2rem;
-	font-weight: 800;
-	color: #000000;
-}
-
-.polarize-header-div h4 {
-	font-size: 1.2rem;
-	font-weight: 500;
-	color: #000000;
-	width: 85%;
-	line-height: 1.8rem;
-}
-
-.polarize-details-main-div {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	column-gap: 3rem;
-}
-
-.polarize-image {
-	position: relative;
-}
-
-.polarize-image img {
-	width: 100%;
-	height: 310px;
-	filter: brightness(85%);
-	/* object-fit: cover; */
-}
-
-.polarize-image h4 {
-	position: absolute;
-	background-color: rgba(0, 0, 0, 0.8);
-
-	bottom: 1%;
-	left: 0;
-	font-size: 2.3rem;
-	color: #ffffff;
-	padding: 1.5rem 2.5rem;
-	width: 100%;
-}
-
-.polarize-details-div {
-	background-color: #ffffff;
-	transition: transform 0.9s ease-in-out; /* Smooth transition */
-	transform-origin: center center; /* Ensures the zoom effect is centered */
-}
-
-.polarize-details-div:hover {
-	transform: scale(1.05); /* Zoom out by 20% */
-}
-
-.polarize-details-div p {
-	font-size: 1.2rem;
-	color: #003d60;
-	padding: 0.7rem 1rem;
-}
-
-.filter-noise-div {
-	background-color: #ffffff;
-	margin-top: 5rem;
-	margin-bottom: 5rem;
-	font-family: 'Roboto Mono', monospace;
-}
-
-.filter-noise-div h2 {
-	font-size: 1.7rem;
-	font-weight: 700;
-	background-color: rgb(25, 55, 77, 0.8);
+.polarize-main-div h2 {
 	color: #fff;
-	line-height: 1.5rem;
-	letter-spacing: -0.8px;
-
-	display: flex;
-	justify-content: center;
-	justify-items: center;
-
-	padding-top: 3rem;
-	padding-bottom: 3rem;
-	margin-bottom: 1.5rem;
-}
-
-.filter-noise-images {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	margin-bottom: 1rem;
-	padding: 2rem 4rem;
-}
-
-.noise-image-1-div img,
-.noise-image-2-div img {
-	width: 670px;
-	height: 400px;
-	object-fit: cover;
-	border-radius: 3px;
-	filter: brightness(90%);
-	transition: transform 0.6s ease-in-out; /* Smooth transition */
-	transform-origin: center center; /* Ensures the zoom effect is centered */
-}
-
-.noise-image-1-div img:hover,
-.noise-image-2-div img:hover {
-	transform: scale(1.04); /* Zoom out by 20% */
-}
-
-.noise-image-2 {
-	margin-left: 2.6rem;
-}
-
-.filter-noise-div h3 {
-	font-size: 1.3rem;
-	font-weight: 700;
-	color: #fff;
-	background-color: rgb(25, 55, 77, 0.8);
+	margin-top: 4rem;
 
 	margin-left: auto;
 	margin-right: auto;
-	width: 60%;
+	width: 80%;
 
-	padding-top: 1.5rem;
-	padding-bottom: 1.5rem;
 	text-align: center;
+	font-size: 2rem;
+	background-color: rgb(25, 55, 77, 0.8);
+	padding: 1rem 1rem;
 }
+
 /* END OF POLARIZATION SECTION */
 
 /* BEGINNING OF TRADITIONAL FINANCIAL PLANNING SECTION */
 .traditional-div {
 	position: relative;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
 }
 
 .traditional-div img {
 	width: 100%;
 	height: 100%;
-	object-fit: cover;
-	filter: brightness(90%);
+	filter: brightness(95%);
 }
 
-.traditional-div h2 {
-	font-size: 2.3rem;
-	font-weight: 700;
-	color: #c6c4c4;
-	background-color: rgb(0, 0, 0, 0.9);
-	font-family: 'Montserrat', sans-serif;
+h2#traditional-text {
+	font-size: 3rem;
+	line-height: 5rem;
+	background-color: rgb(0, 0, 0, 0.3);
+	padding: 3rem 4rem;
 
-	position: absolute;
-	right: 0;
-	width: 60%;
-	bottom: 0.5%;
-
-	padding: 2rem 2.2rem;
+	top: 28%;
+	left: 12%;
+	width: 75%;
 }
+
 /* END OF TRADITIONAL FINANCIAL PLANNING SECTION */
 
 /* BEGINNING OF GESTALT PLANNING PROCESS SECTION  */
 .gestalt-planning-div {
 	padding-top: 4rem;
-	padding-bottom: 1rem;
-	margin-top: 2rem;
+	margin-top: 4rem;
 
 	background-color: rgb(25, 55, 77, 0.2);
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
 }
 
 .gestalt-planning-div h2 {
@@ -462,31 +367,12 @@ h2#intro-text {
 
 	padding: 1.5rem 1.5rem;
 	text-align: center;
-}
-
-.gestalt-planning-inner-div {
-	margin-left: 7rem;
-	margin-right: 7rem;
-	padding-top: 3rem;
-	padding-bottom: 3rem;
-
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	column-gap: 1rem;
-}
-
-.gestalt-planning-inner-div img {
-	width: 640px;
-	height: 400px;
-	filter: brightness(90%);
-	object-fit: cover;
-	border-radius: 3px;
-	transition: transform 0.6s ease-in-out; /* Smooth transition */
+	transition: transform 0.7s ease-in-out; /* Smooth transition */
 	transform-origin: center center; /* Ensures the zoom effect is centered */
 }
 
-.gestalt-planning-inner-div img:hover {
-	transform: scale(1.03); /* Zoom out by 20% */
+.gestalt-planning-div h2:hover {
+	transform: scale(1.04); /* Zoom out by 20% */
 }
 
 .gestalt-planning-perks {
@@ -495,12 +381,72 @@ h2#intro-text {
 	align-items: center;
 }
 
-.gestalt-planning-perks h3 {
-	font-family: 'Be Vietnam Pro', sans-serif;
-	font-size: 2.5rem;
-	font-family: 700;
-	padding-left: 2rem;
+/* gestalt planning div1 */
+.gestalt-planning-inner-div1 {
+	display: flex;
+	flex-direction: column;
+	column-gap: 2rem;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 2rem;
+	margin-top: 4rem;
+	padding-bottom: 3rem;
+	padding-top: 2rem;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
 }
+
+.gestalt-planning-perks1 h3 {
+	font-family: 'Be Vietnam Pro', sans-serif;
+	font-size: 2.7rem;
+	font-family: 700;
+	margin-bottom: 2rem;
+}
+
+.gestalt-planning-inner-div1 img {
+	width: 950px;
+	height: 450px;
+	filter: brightness(90%);
+	object-fit: cover;
+	border-radius: 3px;
+	transition: transform 0.6s ease-in-out; /* Smooth transition */
+	transform-origin: center center; /* Ensures the zoom effect is centered */
+}
+
+.gestalt-planning-inner-div1 img:hover {
+	transform: scale(1.03); /* Zoom out by 20% */
+}
+
+/* end gestalt planning div1 */
+
+/* gestalt planning div2 */
+
+.gestalt-planning-inner-div2 {
+	position: relative;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
+	background-color: #ffffff;
+	margin-bottom: 0;
+}
+
+.gestalt-planning-inner-div2 img {
+	width: 100%;
+	height: 800px;
+	object-fit: cover;
+	filter: brightness(80%);
+}
+
+.gestalt-planning-inner-div2 h3#gestalt-planning2-text {
+	font-size: 4rem;
+	line-height: 5rem;
+	background-color: rgb(0, 0, 0, 0.2);
+	padding: 3rem 4rem;
+
+	top: 28%;
+	left: 17%;
+	width: 65%;
+	color: #fff;
+}
+/*end of gestalt planning div2 */
+
 /* END OF GESTALT PLANNING PROCESS SECTION  */
 
 /* BEGINNING OF DISCOVER BUTTON SECTION */
@@ -509,8 +455,10 @@ h2#intro-text {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 5rem;
+	margin-bottom: 2rem;
 	padding-top: 2rem;
+	padding-bottom: 3rem;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
 }
 
 .discover-button h2 {
@@ -585,13 +533,14 @@ h2#intro-text {
 
 /* END OF DISCOVER BUTTON SECTION */
 
-/* BEGINNING OF CONQUER TOGETHER SECTION */
+/* BEGINNING OF ACHIEVE TOGETHER SECTION */
 .conquer-together-main-div {
 	background-color: rgb(25, 55, 77, 0.2);
 	font-family: 'Montserrat', sans-serif;
 
 	padding-top: 5rem;
 	padding-bottom: 3rem;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
 }
 
 .conquer-header,
@@ -655,12 +604,16 @@ h2#intro-text {
 	padding-bottom: 3px;
 }
 
-/* ENDING OF CONQUER TOGETHER SECTION */
+/* ENDING OF ACHIEVE TOGETHER SECTION */
+
+/* WHAT IS INCLUDED SECTION */
 .what-is-included-main-div {
 	background-color: #ffffff;
 	margin-top: 5rem;
+	padding-top: 2rem;
 	margin-bottom: 2rem;
 	font-family: 'Montserrat', sans-serif;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
 }
 
 .what-is-included-header {
@@ -708,5 +661,39 @@ h2#intro-text {
 .what-is-included-main-div ol li::before {
 	background-color: rgb(25, 55, 77, 0.8);
 }
-
 /* ENDING OF WHAT IS INCLUDED SECTION */
+
+/* FOOTER */
+footer {
+	height: 15vh;
+	background-color: rgb(25, 55, 77, 0.8);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-detail {
+	margin: 0 auto;
+	width: 80%;
+
+	font-size: 1rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	color: #abbecd;
+	line-height: 1.7rem;
+}
+
+.footer-detail span {
+	text-decoration: none;
+}
+
+.footer-detail span a {
+	font-weight: 700;
+	color: #abbecd;
+}
+
+.footer-detail span a:hover {
+	color: #fff;
+}
+
+/* END OF FOOTER */

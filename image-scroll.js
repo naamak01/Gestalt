@@ -6,7 +6,7 @@ const introText = document.getElementById('intro-text'); // Get the <h2> element
 let images = [
 	'/images/Happy-family.png',
 	'/images/Couple-Driving.png',
-	'/images/Happy-family.png',
+	'/images/couple-hiking.png',
 	'/images/Couple-Driving.png',
 ];
 
