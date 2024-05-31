@@ -456,7 +456,7 @@ h2#traditional-text {
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 2rem;
-	padding-top: 2rem;
+	padding-top: 1rem;
 	padding-bottom: 3rem;
 	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
 }
