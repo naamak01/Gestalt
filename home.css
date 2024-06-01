@@ -59,7 +59,6 @@ nav ul {
 nav ul li a {
 	text-decoration: none;
 	font-size: 1rem;
-	/* font-family: 'Be Vietnam Pro', sans-serif; */
 	font-weight: 500;
 	margin-right: 1.2rem;
 	color: #ffffff;
@@ -131,7 +130,6 @@ h2#traditional-text,
 h3#gestalt-planning2-text {
 	font-size: 3.9rem;
 	font-weight: 800;
-	font-family: 'Montserrat', sans-serif;
 	line-height: 5rem;
 	background-color: rgb(0, 0, 0, 0.2);
 	padding: 4rem 4rem;
@@ -171,7 +169,6 @@ h3#gestalt-planning2-text {
 	margin-left: 8rem;
 	margin-right: 13rem;
 	margin-bottom: 2rem;
-	/* font-family: 'Montserrat', sans-serif; */
 }
 
 .text {
@@ -227,23 +224,6 @@ h3#gestalt-planning2-text {
 	padding-top: 2rem;
 }
 
-/* .about-div2 h2 {
-	font-size: 2.2rem;
-	font-weight: 800;
-	color: #fff;
-	background-color: rgb(25, 55, 77, 0.8);
-
-	font-family: 'Roboto Mono', monospace;
-
-	margin-left: auto;
-	margin-right: auto;
-	width: 60%;
-
-	padding-bottom: 0.5rem;
-	padding-top: 0.5rem;
-	text-align: center;
-} */
-
 .about-div2-image {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -280,12 +260,12 @@ h3#gestalt-planning2-text {
 
 /* Beginning of about-div3 */
 .about-div3 {
-	height: 170vh;
+	height: 140vh;
 	/* font-family: 'Montserrat', sans-serif; */
 }
 
 .text2 {
-	font-size: 6.5vw;
+	font-size: 6.8vw;
 	letter-spacing: 0.15em;
 	line-height: 7rem;
 	margin: 0;
@@ -299,24 +279,10 @@ h3#gestalt-planning2-text {
 .polarize-main-div {
 	background-color: rgb(25, 55, 77, 0.2);
 	box-shadow: 4px 1px 4px 0 rgba(0, 0, 0, 0.4);
-	height: 105vh;
+	height: 85vh;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 	margin-bottom: 2rem;
-}
-
-.polarize-main-div h2 {
-	color: #fff;
-	margin-top: 4rem;
-
-	margin-left: auto;
-	margin-right: auto;
-	width: 80%;
-
-	text-align: center;
-	font-size: 2rem;
-	background-color: rgb(25, 55, 77, 0.8);
-	padding: 1rem 1rem;
 }
 
 /* END OF POLARIZATION SECTION */
