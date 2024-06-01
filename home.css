@@ -127,7 +127,8 @@ img#intro-image-slides {
 
 h2#intro-text,
 h2#traditional-text,
-h3#gestalt-planning2-text {
+h3#gestalt-planning2-text,
+h3#gestalt-planning1-text {
 	font-size: 3.9rem;
 	font-weight: 800;
 	line-height: 5rem;
@@ -282,7 +283,7 @@ h3#gestalt-planning2-text {
 	height: 85vh;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
-	margin-bottom: 2rem;
+	margin-bottom: 6rem;
 }
 
 /* END OF POLARIZATION SECTION */
@@ -297,6 +298,7 @@ h3#gestalt-planning2-text {
 	width: 100%;
 	height: 100%;
 	filter: brightness(95%);
+	opacity: 0.85;
 }
 
 h2#traditional-text {
@@ -305,7 +307,7 @@ h2#traditional-text {
 	background-color: rgb(0, 0, 0, 0.3);
 	padding: 3rem 4rem;
 
-	top: 28%;
+	top: 25%;
 	left: 12%;
 	width: 75%;
 }
@@ -323,14 +325,14 @@ h2#traditional-text {
 
 .gestalt-planning-div h2 {
 	/* font-family: 'Montserrat', sans-serif; */
-	font-size: 1.8rem;
+	font-size: 2.7rem;
 	font-weight: 700;
 	color: #fff;
 	background-color: rgb(25, 55, 77, 0.8);
 
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%;
+	width: 85%;
 
 	padding: 1.5rem 1.5rem;
 	text-align: center;
@@ -360,13 +362,21 @@ h2#traditional-text {
 	padding-bottom: 3rem;
 	padding-top: 2rem;
 	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
+
+	position: relative;
 }
 
-.gestalt-planning-perks1 h3 {
-	/* font-family: 'Be Vietnam Pro', sans-serif; */
-	font-size: 2.7rem;
-	font-family: 700;
-	margin-bottom: 2rem;
+.gestalt-planning-inner-div1 h3 {
+	font-size: 4rem;
+	line-height: 5rem;
+	background-color: rgb(0, 0, 0, 0.2);
+	padding: 3rem 4rem;
+
+	position: absolute;
+	top: 24%;
+	left: 23%;
+	width: 55%;
+	color: #fff;
 }
 
 .gestalt-planning-inner-div1 img {
@@ -510,6 +520,13 @@ h2#traditional-text {
 	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
 }
 
+.conquer-together-inner-div {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	margin-top: 3rem;
+}
+
 .conquer-header,
 .what-is-included-header {
 	font-size: 1.8rem;
@@ -525,14 +542,25 @@ h2#traditional-text {
 	text-align: center;
 }
 
-.conquer-together-main-div ol {
-	margin: 0 auto;
-	width: 60%;
+.conquer-together-inner-div img {
+	width: 600px;
+	height: 420px;
+	object-fit: cover;
+	filter: brightness(90%);
+	margin-left: 7rem;
+	border-radius: 3px;
+	transition: transform 0.6s ease-in-out; /* Smooth transition */
+	transform-origin: center center; /* Ensures the zoom effect is centered */
+}
 
+.conquer-together-inner-div img:hover {
+	transform: scale(1.04); /* Zoom out by 20% */
+}
+
+.conquer-together-main-div ol {
 	padding: 2rem 1.3rem;
 	list-style-type: none; /* Hide default list markers */
 	counter-reset: item; /* Initialize a counter */
-	padding-left: 15rem;
 }
 
 .conquer-together-main-div ol li {
