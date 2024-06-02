@@ -425,7 +425,7 @@
 
 /* MEDIA QUERY WHEN SCREEN SIZE IS BETWEEN 1260PX AND 1300PX */
 
-@media (min-width: 1250px) and (max-width: 1330px) {
+@media (min-width: 1200px) and (max-width: 1330px) {
 	nav img {
 		padding-left: 2rem;
 	}
@@ -465,7 +465,7 @@
 
 	/* Beginning of about div 2 */
 	.about-div2 {
-		height: 65vh;
+		height: 56vh;
 		padding-top: 1rem;
 	}
 
@@ -499,7 +499,7 @@
 
 	/* POLARIZATION SECTION */
 	.polarize-main-div {
-		height: 65vh;
+		height: 55vh;
 		padding-top: 1rem;
 		padding-bottom: 2rem;
 		margin-bottom: 5rem;
