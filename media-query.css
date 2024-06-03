@@ -6,7 +6,7 @@
 	/* ABOUT SECTION */
 	/* targeting scroll highlight animation */
 	.about-div1 {
-		height: 90vh;
+		height: 100vh;
 		margin-left: 8rem;
 		margin-right: 17rem;
 		margin-bottom: 2rem;
@@ -46,7 +46,7 @@
 	}
 
 	.text2 {
-		font-size: 6.6vw;
+		font-size: 6vw;
 		letter-spacing: 0.15em;
 		line-height: 8rem;
 		margin: 0;
@@ -320,7 +320,7 @@
 	}
 
 	.text2 {
-		font-size: 6.5vw;
+		font-size: 6vw;
 		letter-spacing: 0.15em;
 		line-height: 7rem;
 		margin: 0;
@@ -482,12 +482,12 @@
 
 	/* Beginning of about-div3 */
 	.about-div3 {
-		height: 110vh;
+		height: 100vh;
 		/* font-family: 'Montserrat', sans-serif; */
 	}
 
 	.text2 {
-		font-size: 6.5vw;
+		font-size: 6vw;
 		letter-spacing: 0.15em;
 		line-height: 7rem;
 		margin: 0;
