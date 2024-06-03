@@ -6,7 +6,7 @@
 	/* ABOUT SECTION */
 	/* targeting scroll highlight animation */
 	.about-div1 {
-		height: 80vh;
+		height: 90vh;
 		margin-left: 8rem;
 		margin-right: 17rem;
 		margin-bottom: 2rem;
@@ -294,7 +294,7 @@
 
 	/* Beginning of about div 2 */
 	.about-div1 {
-		height: 85vh;
+		height: 100vh;
 	}
 
 	.about-div2 {
@@ -450,7 +450,7 @@
 	/* ABOUT SECTION */
 	/* targeting scroll highlight animation */
 	.about-div1 {
-		height: 90vh;
+		height: 100vh;
 	}
 
 	.text {
@@ -465,7 +465,7 @@
 
 	/* Beginning of about div 2 */
 	.about-div2 {
-		height: 80vh;
+		height: 70vh;
 		padding-top: 1rem;
 	}
 
@@ -499,7 +499,7 @@
 
 	/* POLARIZATION SECTION */
 	.polarize-main-div {
-		height: 80vh;
+		height: 70vh;
 		padding-top: 1rem;
 		padding-bottom: 2rem;
 		margin-bottom: 5rem;
