@@ -925,7 +925,11 @@
 /* END OF MEDIA QUERY WHEN SCREEN SIZE HAS A MAX WIDTH OF 1199PX */
 
 /* MEDIA QUERY WHEN SCREEN SIZE HAS A MAX WIDTH OF 990PX */
+<<<<<<< HEAD
 @media (max-width: 999px) {
+=======
+@media (max-width: 990px) {
+>>>>>>> 6229e934e37b14c530d9e78e360122770d56fd11
 	nav {
 		display: none;
 	}
@@ -1259,6 +1263,7 @@
 /* END OF MEDIA QUERY WHEN SCREEN SIZE HAS A MAX WIDTH OF 990PX */
 
 /* MEDIA QUERY WHEN SCREEN SIZE HAS A MAX WIDTH OF 850PX */
+<<<<<<< HEAD
 @media (max-width: 930px) {
 	nav {
 		display: none;
@@ -1590,6 +1595,8 @@
 /* END OF MEDIA QUERY WHEN SCREEN SIZE HAS A MAX WIDTH OF 930PX */
 
 /* MEDIA QUERY WHEN SCREEN SIZE HAS A MAX WIDTH OF 850PX */
+=======
+>>>>>>> 6229e934e37b14c530d9e78e360122770d56fd11
 @media (max-width: 850px) {
 	nav {
 		display: none;
