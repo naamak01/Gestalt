@@ -924,8 +924,8 @@
 }
 /* END OF MEDIA QUERY WHEN SCREEN SIZE HAS A MAX WIDTH OF 1199PX */
 
-/* MEDIA QUERY WHEN SCREEN SIZE HAS A MAX WIDTH OF 999PX */
-@media (max-width: 980px) {
+/* MEDIA QUERY WHEN SCREEN SIZE HAS A MAX WIDTH OF 990PX */
+@media (max-width: 990px) {
 	nav {
 		display: none;
 	}
@@ -1258,8 +1258,339 @@
 }
 /* END OF MEDIA QUERY WHEN SCREEN SIZE HAS A MAX WIDTH OF 990PX */
 
-/* MEDIA QUERY WHEN SCREEN SIZE HAS A MAX WIDTH OF 880PX */
-@media (max-width: 880px) {
+/* MEDIA QUERY WHEN SCREEN SIZE HAS A MAX WIDTH OF 935PX */
+@media (max-width: 935px) {
+	nav {
+		display: none;
+	}
+
+	#hamburger-nav {
+		display: flex;
+	}
+
+	.hamburger-icon {
+		display: block;
+	}
+
+	#hamburger-nav img {
+		margin-left: 1.5rem;
+		margin-right: 0;
+		padding-top: 0.2rem;
+		padding-left: 1rem;
+
+		width: 250px;
+		height: 40px;
+		transform: scale(1.1);
+	}
+
+	.nav-menu {
+		top: 80px;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+
+	.hamburger-icon span {
+		margin-right: 1.5rem;
+	}
+
+	/* END OF CSS FOR NAVIGATION BAR */
+
+	/* INTRODUCTION SECTION */
+	img#intro-image-slides {
+		width: 100%;
+		height: 550px;
+		object-fit: cover;
+	}
+
+	h2#intro-text,
+	h2#traditional-text,
+	h3#gestalt-planning2-text,
+	h3#gestalt-planning1-text {
+		font-size: 3.5rem;
+		font-weight: 800;
+		line-height: 4.5rem;
+		padding: 1rem 1rem;
+		padding-left: 2rem;
+		text-align: start;
+		top: 20%;
+		left: 10%;
+		width: 80%;
+	}
+
+	/* END OF INTRODUCTION SECTION */
+
+	/* ABOUT SECTION */
+	/* targeting scroll highlight animation */
+	.about-div1 {
+		height: 95vh;
+		margin-left: 2rem;
+		margin-right: 4rem;
+		margin-bottom: 2rem;
+	}
+
+	.text {
+		font-size: 7vw;
+		letter-spacing: 0.15em;
+		line-height: 4rem;
+		margin: 0;
+	}
+
+	/* end of scroll highlight animation */
+	/* end of about div 1 */
+
+	/* Beginning of about div 2 */
+	.about-div2 {
+		background-color: rgb(25, 55, 77, 0.2);
+		height: 270vh;
+		box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
+		padding-top: 2rem;
+	}
+
+	.about-div2-image {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding-left: 0;
+	}
+
+	.about-div2-image img {
+		width: 90%;
+		height: 500px;
+		object-fit: cover;
+		margin-top: 2rem;
+	}
+
+	.about-first-principle {
+		/* font-family: 'Be Vietnam Pro', sans-serif; */
+		margin-top: 1rem;
+		margin-right: 3rem;
+	}
+
+	/* End of about div 2 */
+
+	/* Beginning of about-div3 */
+	.about-div3 {
+		height: 130vh;
+		margin-left: 2rem;
+		margin-right: 3rem;
+		margin-bottom: 2rem;
+	}
+
+	.text {
+		font-size: 7vw;
+		letter-spacing: 0.15em;
+		line-height: 4rem;
+		margin: 0;
+	}
+	/* End of about-div3 */
+
+	/* END OF ABOUT SECTION */
+
+	/* POLARIZATION SECTION */
+	.polarize-main-div {
+		background-color: rgb(25, 55, 77, 0.2);
+		box-shadow: 4px 1px 4px 0 rgba(0, 0, 0, 0.4);
+		height: 270vh;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+		margin-bottom: 4rem;
+	}
+
+	/* END OF POLARIZATION SECTION */
+
+	/* BEGINNING OF TRADITIONAL FINANCIAL PLANNING SECTION */
+	.traditional-div img {
+		width: 100%;
+		height: 500px;
+		object-fit: cover;
+	}
+
+	h2#traditional-text {
+		font-size: 2.5rem;
+		font-weight: 800;
+		line-height: 3rem;
+		padding: 1rem 1.5rem;
+		text-align: start;
+		top: 23%;
+		left: 7%;
+		width: 85%;
+	}
+
+	/* END OF TRADITIONAL FINANCIAL PLANNING SECTION */
+
+	/* BEGINNING OF GESTALT PLANNING PROCESS SECTION  */
+	.gestalt-planning-div {
+		padding-top: 4rem;
+		margin-top: 4rem;
+	}
+
+	.gestalt-planning-div h2 {
+		/* font-family: 'Montserrat', sans-serif; */
+		font-size: 2.3rem;
+		width: 100%;
+
+		padding: 1.5rem 1.8rem;
+		text-align: start;
+	}
+
+	/* gestalt planning div1 */
+	.gestalt-planning-inner-div1 {
+		margin-bottom: 2rem;
+		margin-top: o;
+		padding-bottom: 3rem;
+		padding-top: 0;
+	}
+
+	.gestalt-planning-inner-div1 img {
+		width: 100%;
+		height: 500px;
+		object-fit: cover;
+	}
+
+	h3#gestalt-planning1-text {
+		font-size: 3.8rem;
+		line-height: 5rem;
+		background-color: rgb(0, 0, 0, 0.2);
+		padding: 3rem 1rem;
+		padding-left: 2.5rem;
+
+		top: 22%;
+		left: 10;
+		width: 80%;
+		color: #fff;
+	}
+
+	/* end gestalt planning div1 */
+
+	/* gestalt planning div2 */
+
+	.gestalt-planning-inner-div2 {
+		margin-bottom: 0;
+	}
+
+	.gestalt-planning-inner-div2 img {
+		width: 100%;
+		height: 500px;
+		object-fit: cover;
+	}
+
+	.gestalt-planning-inner-div2 h3#gestalt-planning2-text {
+		font-size: 3.8rem;
+		line-height: 4.5rem;
+		padding: 1rem 0;
+		padding-left: 2rem;
+
+		top: 25%;
+		left: 7%;
+		width: 85%;
+		color: #fff;
+	}
+	/*end of gestalt planning div2 */
+
+	/* END OF GESTALT PLANNING PROCESS SECTION  */
+
+	/* BEGINNING OF DISCOVER BUTTON SECTION */
+
+	.discover-button h2 {
+		/* font-family: 'Montserrat', sans-serif; */
+		font-size: 1.8rem;
+
+		width: 90%;
+	}
+	/* END OF DISCOVER BUTTON SECTION */
+
+	/* BEGINNING OF ACHIEVE TOGETHER SECTION */
+	.conquer-together-main-div {
+		padding-bottom: 3rem;
+	}
+
+	.conquer-together-inner-div {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 3rem;
+	}
+
+	.conquer-header,
+	.what-is-included-header {
+		font-size: 2rem;
+
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+
+	.conquer-together-inner-div img {
+		object-fit: cover;
+
+		width: 100%;
+		height: 500px;
+		margin-top: 0;
+		margin-left: 0;
+		border-radius: 0;
+	}
+
+	.conquer-together-main-div ol {
+		padding: 2rem 1.3rem;
+		padding-left: 2rem;
+	}
+
+	/* ENDING OF ACHIEVE TOGETHER SECTION */
+
+	/* WHAT IS INCLUDED SECTION */
+
+	.what-is-included-main-div ol li {
+		font-size: 1rem;
+		font-weight: 600;
+		padding: 10px;
+		counter-increment: item; /* Increment the counter for each list item */
+		position: relative; /* Positioning context for pseudo-element */
+		padding-left: 40px; /* Space for the custom marker */
+		margin-bottom: 0.5rem;
+	}
+
+	.what-is-included-inner-div {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 1rem;
+	}
+
+	.what-is-included-inner-div img {
+		object-fit: cover;
+
+		width: 100%;
+		height: 530px;
+		margin-top: 1rem;
+		margin-left: 0;
+		border-radius: 0;
+	}
+
+	.what-is-included-main-div ol {
+		padding: 2rem 0;
+		padding-left: 2rem;
+
+		margin: 0 auto;
+	}
+
+	/* ENDING OF WHAT IS INCLUDED SECTION */
+
+	/* FOOTER */
+	footer {
+		height: 20vh;
+	}
+
+	.footer-detail {
+		margin: 0 auto;
+		width: 80%;
+	}
+	/* END OF FOOTER */
+}
+/* END OF MEDIA QUERY WHEN SCREEN SIZE HAS A MAX WIDTH OF 935PX */
+
+/* MEDIA QUERY WHEN SCREEN SIZE HAS A MAX WIDTH OF 850PX */
+@media (max-width: 850px) {
 	nav {
 		display: none;
 	}
@@ -1587,334 +1918,7 @@
 	}
 	/* END OF FOOTER */
 }
-/* END OF MEDIA QUERY WHEN SCREEN SIZE HAS A MAX WIDTH OF 880PX */
-
-/* MEDIA QUERY WHEN SCREEN SIZE HAS A MAX WIDTH OF 810PX */
-@media (max-width: 810px) {
-	nav {
-		display: none;
-	}
-
-	#hamburger-nav {
-		display: flex;
-	}
-
-	.hamburger-icon {
-		display: block;
-	}
-
-	#hamburger-nav img {
-		margin-left: 0;
-		margin-right: 0;
-		padding-top: 0.2rem;
-		padding-left: 1rem;
-
-		width: 250px;
-		height: 40px;
-		transform: scale(1.1);
-	}
-
-	.nav-menu {
-		top: 80px;
-		padding-top: 2rem;
-		padding-bottom: 2rem;
-	}
-
-	/* END OF CSS FOR NAVIGATION BAR */
-
-	/* INTRODUCTION SECTION */
-	img#intro-image-slides {
-		width: 100%;
-		height: 550px;
-		object-fit: cover;
-	}
-
-	h2#intro-text,
-	h2#traditional-text,
-	h3#gestalt-planning2-text,
-	h3#gestalt-planning1-text {
-		font-size: 3rem;
-		font-weight: 800;
-		line-height: 4.5rem;
-		padding: 1rem 1rem;
-		padding-left: 2rem;
-		text-align: start;
-		top: 30%;
-		left: 10%;
-		width: 80%;
-	}
-
-	/* END OF INTRODUCTION SECTION */
-
-	/* ABOUT SECTION */
-	/* targeting scroll highlight animation */
-	.about-div1 {
-		height: 50vh;
-		margin-left: 2rem;
-		margin-right: 4rem;
-		margin-bottom: 2rem;
-	}
-
-	.text {
-		font-size: 7vw;
-		letter-spacing: 0.15em;
-		line-height: 4rem;
-		margin: 0;
-	}
-
-	/* end of scroll highlight animation */
-	/* end of about div 1 */
-
-	/* Beginning of about div 2 */
-	.about-div2 {
-		background-color: rgb(25, 55, 77, 0.2);
-		height: 110vh;
-		box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
-		padding-top: 2rem;
-	}
-
-	.about-div2-image {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding-left: 0;
-	}
-
-	.about-div2-image img {
-		width: 90%;
-		height: 400px;
-		object-fit: cover;
-		margin-top: 2rem;
-	}
-
-	.about-first-principle {
-		/* font-family: 'Be Vietnam Pro', sans-serif; */
-		margin-top: 1rem;
-		margin-right: 3rem;
-	}
-
-	/* End of about div 2 */
-
-	/* Beginning of about-div3 */
-	.about-div3 {
-		height: 70vh;
-		margin-left: 2rem;
-		margin-right: 3rem;
-		margin-bottom: 2rem;
-	}
-
-	.text {
-		font-size: 7vw;
-		letter-spacing: 0.15em;
-		line-height: 4rem;
-		margin: 0;
-	}
-	/* End of about-div3 */
-
-	/* END OF ABOUT SECTION */
-
-	/* POLARIZATION SECTION */
-	.polarize-main-div {
-		background-color: rgb(25, 55, 77, 0.2);
-		box-shadow: 4px 1px 4px 0 rgba(0, 0, 0, 0.4);
-		height: 110vh;
-		padding-top: 2rem;
-		padding-bottom: 2rem;
-		margin-bottom: 4rem;
-	}
-
-	/* END OF POLARIZATION SECTION */
-
-	/* BEGINNING OF TRADITIONAL FINANCIAL PLANNING SECTION */
-	.traditional-div img {
-		width: 100%;
-		height: 400px;
-		object-fit: cover;
-	}
-
-	h2#traditional-text {
-		font-size: 1.8rem;
-		font-weight: 800;
-		line-height: 2.5rem;
-		padding: 1rem 0.5rem;
-		text-align: start;
-		top: 30%;
-		left: 10%;
-		width: 80%;
-	}
-
-	/* END OF TRADITIONAL FINANCIAL PLANNING SECTION */
-
-	/* BEGINNING OF GESTALT PLANNING PROCESS SECTION  */
-	.gestalt-planning-div {
-		padding-top: 4rem;
-		margin-top: 4rem;
-	}
-
-	.gestalt-planning-div h2 {
-		/* font-family: 'Montserrat', sans-serif; */
-		font-size: 2.3rem;
-		width: 100%;
-
-		padding: 1.5rem 1.8rem;
-		text-align: start;
-	}
-
-	/* gestalt planning div1 */
-	.gestalt-planning-inner-div1 {
-		margin-bottom: 2rem;
-		margin-top: o;
-		padding-bottom: 3rem;
-		padding-top: 0;
-	}
-
-	.gestalt-planning-inner-div1 img {
-		width: 100%;
-		height: 400px;
-		object-fit: cover;
-	}
-
-	h3#gestalt-planning1-text {
-		font-size: 3.2rem;
-		line-height: 4rem;
-		background-color: rgb(0, 0, 0, 0.2);
-		padding: 3rem 1rem;
-		padding-left: 2.5rem;
-
-		top: 25%;
-		left: 10;
-		width: 80%;
-		color: #fff;
-	}
-
-	/* end gestalt planning div1 */
-
-	/* gestalt planning div2 */
-
-	.gestalt-planning-inner-div2 {
-		margin-bottom: 0;
-	}
-
-	.gestalt-planning-inner-div2 img {
-		width: 100%;
-		height: 400px;
-		object-fit: cover;
-	}
-
-	.gestalt-planning-inner-div2 h3#gestalt-planning2-text {
-		font-size: 3rem;
-		line-height: 4rem;
-		padding: 1rem 0;
-		padding-left: 2rem;
-
-		top: 25%;
-		left: 10%;
-		width: 80%;
-		color: #fff;
-	}
-	/*end of gestalt planning div2 */
-
-	/* END OF GESTALT PLANNING PROCESS SECTION  */
-
-	/* BEGINNING OF DISCOVER BUTTON SECTION */
-
-	.discover-button h2 {
-		/* font-family: 'Montserrat', sans-serif; */
-		font-size: 1.8rem;
-
-		width: 90%;
-	}
-	/* END OF DISCOVER BUTTON SECTION */
-
-	/* BEGINNING OF ACHIEVE TOGETHER SECTION */
-	.conquer-together-main-div {
-		padding-bottom: 3rem;
-	}
-
-	.conquer-together-inner-div {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		margin-top: 3rem;
-	}
-
-	.conquer-header,
-	.what-is-included-header {
-		font-size: 1.8rem;
-
-		margin-left: auto;
-		margin-right: auto;
-		width: 100%;
-	}
-
-	.conquer-together-inner-div img {
-		object-fit: cover;
-
-		width: 100%;
-		height: 400px;
-		margin-top: 0;
-		margin-left: 0;
-		border-radius: 0;
-	}
-
-	.conquer-together-main-div ol {
-		padding: 2rem 1.3rem;
-		padding-left: 2rem;
-	}
-
-	/* ENDING OF ACHIEVE TOGETHER SECTION */
-
-	/* WHAT IS INCLUDED SECTION */
-
-	.what-is-included-main-div ol li {
-		font-size: 1rem;
-		font-weight: 600;
-		padding: 10px;
-		counter-increment: item; /* Increment the counter for each list item */
-		position: relative; /* Positioning context for pseudo-element */
-		padding-left: 40px; /* Space for the custom marker */
-		margin-bottom: 0.5rem;
-	}
-
-	.what-is-included-inner-div {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		margin-top: 1rem;
-	}
-
-	.what-is-included-inner-div img {
-		object-fit: cover;
-
-		width: 100%;
-		height: 480px;
-		margin-top: 1rem;
-		margin-left: 0;
-		border-radius: 0;
-	}
-
-	.what-is-included-main-div ol {
-		padding: 2rem 0;
-		padding-left: 2rem;
-
-		margin: 0 auto;
-	}
-
-	/* ENDING OF WHAT IS INCLUDED SECTION */
-
-	/* FOOTER */
-	footer {
-		height: 25vh;
-	}
-
-	.footer-detail {
-		margin: 0 auto;
-		width: 90%;
-	}
-	/* END OF FOOTER */
-}
-/* END OF MEDIA QUERY WHEN SCREEN SIZE HAS A MAX WIDTH OF 810PX */
+/* END OF MEDIA QUERY WHEN SCREEN SIZE HAS A MAX WIDTH OF 850PX */
 
 /* MEDIA QUERY WHEN SCREEN SIZE HAS A MAX WIDTH OF 750PX */
 @media (max-width: 750px) {
