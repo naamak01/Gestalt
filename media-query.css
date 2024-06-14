@@ -1259,7 +1259,7 @@
 /* END OF MEDIA QUERY WHEN SCREEN SIZE HAS A MAX WIDTH OF 990PX */
 
 /* MEDIA QUERY WHEN SCREEN SIZE HAS A MAX WIDTH OF 935PX */
-@media (max-width: 932px) and (-webkit-device-pixel-ratio: 3) {
+@media (max-width: 926px) and (-webkit-device-pixel-ratio: 3) {
 	nav {
 		display: none;
 	}
@@ -3444,6 +3444,333 @@
 	.gestalt-planning-inner-div2 h3#gestalt-planning2-text {
 		font-size: 2rem;
 		line-height: 3rem;
+		padding: 1rem 0;
+		padding-left: 2rem;
+
+		top: 15%;
+		left: 0;
+		width: 100%;
+		color: #fff;
+	}
+	/*end of gestalt planning div2 */
+
+	/* END OF GESTALT PLANNING PROCESS SECTION  */
+
+	/* BEGINNING OF DISCOVER BUTTON SECTION */
+
+	.discover-button h2 {
+		/* font-family: 'Montserrat', sans-serif; */
+		font-size: 1.8rem;
+
+		width: 90%;
+	}
+	/* END OF DISCOVER BUTTON SECTION */
+
+	/* BEGINNING OF ACHIEVE TOGETHER SECTION */
+	.conquer-together-main-div {
+		padding-bottom: 3rem;
+	}
+
+	.conquer-together-inner-div {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 3rem;
+	}
+
+	.conquer-header,
+	.what-is-included-header {
+		font-size: 1.8rem;
+
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+
+	.conquer-together-inner-div img {
+		object-fit: contain;
+
+		width: 100%;
+		height: 250px;
+		margin-top: 0;
+		margin-left: 0;
+		border-radius: 0;
+	}
+
+	.conquer-together-main-div ol {
+		padding: 2rem 1.3rem;
+		padding-left: 2rem;
+	}
+
+	/* ENDING OF ACHIEVE TOGETHER SECTION */
+
+	/* WHAT IS INCLUDED SECTION */
+
+	.what-is-included-main-div ol li {
+		font-size: 1rem;
+		font-weight: 600;
+		padding: 10px;
+		counter-increment: item; /* Increment the counter for each list item */
+		position: relative; /* Positioning context for pseudo-element */
+		padding-left: 40px; /* Space for the custom marker */
+		margin-bottom: 0.5rem;
+	}
+
+	.what-is-included-inner-div {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 1rem;
+	}
+
+	.what-is-included-inner-div img {
+		object-fit: contain;
+
+		width: 100%;
+		height: 250px;
+		margin-top: 0;
+		margin-left: 0;
+		border-radius: 0;
+	}
+
+	.what-is-included-main-div ol {
+		padding: 2rem 0;
+		padding-left: 2rem;
+
+		margin: 0 auto;
+	}
+
+	/* ENDING OF WHAT IS INCLUDED SECTION */
+
+	/* FOOTER */
+	footer {
+		height: 25vh;
+	}
+
+	.footer-detail {
+		margin: 0 auto;
+		width: 90%;
+	}
+	/* END OF FOOTER */
+}
+/* END OF MEDIA QUERY WHEN SCREEN SIZE HAS A MAX WIDTH OF 410PX */
+
+/* MEDIA QUERY WHEN SCREEN SIZE HAS A MAX WIDTH OF 380PX */
+@media (max-width: 380px) {
+	nav {
+		display: none;
+	}
+
+	#hamburger-nav {
+		display: flex;
+	}
+
+	.hamburger-icon {
+		display: block;
+	}
+
+	#hamburger-nav img {
+		margin-left: 0;
+		margin-right: 0;
+		padding-top: 0.2rem;
+		padding-left: 1rem;
+
+		width: 230px;
+		height: 35px;
+		transform: scale(1.1);
+	}
+
+	.nav-menu {
+		top: 80px;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+
+	/* END OF CSS FOR NAVIGATION BAR */
+
+	/* INTRODUCTION SECTION */
+	img#intro-image-slides {
+		width: 100%;
+		height: 320px;
+		object-fit: contain;
+	}
+
+	h2#intro-text,
+	h2#traditional-text,
+	h3#gestalt-planning2-text,
+	h3#gestalt-planning1-text {
+		font-size: 1.8rem;
+		font-weight: 800;
+		line-height: 3rem;
+		padding: 0.5rem 0.5rem;
+		padding-left: 2rem;
+		text-align: start;
+		top: 25%;
+		left: 0%;
+		width: 100%;
+	}
+
+	/* END OF INTRODUCTION SECTION */
+
+	/* ABOUT SECTION */
+	/* targeting scroll highlight animation */
+	.about-div1 {
+		height: 50vh;
+		margin-left: 2rem;
+		margin-right: 4rem;
+		margin-bottom: 2rem;
+	}
+
+	.text {
+		font-size: 7vw;
+		letter-spacing: 0.15em;
+		line-height: 4rem;
+		margin: 0;
+	}
+
+	/* end of scroll highlight animation */
+	/* end of about div 1 */
+
+	/* Beginning of about div 2 */
+	.about-div2 {
+		background-color: rgb(25, 55, 77, 0.2);
+		height: 75vh;
+		box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
+		padding-top: 2rem;
+	}
+
+	.about-div2-image {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding-left: 0;
+	}
+
+	.about-div2-image img {
+		width: 90%;
+		height: 250px;
+		object-fit: contain;
+		margin-top: 1rem;
+	}
+
+	.about-first-principle {
+		/* font-family: 'Be Vietnam Pro', sans-serif; */
+		margin-top: 1rem;
+		margin-right: 3rem;
+	}
+
+	/* End of about div 2 */
+
+	/* Beginning of about-div3 */
+	.about-div3 {
+		height: 70vh;
+		margin-left: 2rem;
+		margin-right: 3rem;
+		margin-bottom: 2rem;
+	}
+
+	.text {
+		font-size: 7vw;
+		letter-spacing: 0.15em;
+		line-height: 4rem;
+		margin: 0;
+	}
+	/* End of about-div3 */
+
+	/* END OF ABOUT SECTION */
+
+	/* POLARIZATION SECTION */
+	.polarize-main-div {
+		background-color: rgb(25, 55, 77, 0.2);
+		box-shadow: 4px 1px 4px 0 rgba(0, 0, 0, 0.4);
+		height: 75vh;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+		margin-bottom: 4rem;
+	}
+
+	/* END OF POLARIZATION SECTION */
+
+	/* BEGINNING OF TRADITIONAL FINANCIAL PLANNING SECTION */
+	.traditional-div img {
+		width: 100%;
+		height: 250px;
+		object-fit: contain;
+	}
+
+	h2#traditional-text {
+		font-size: 1.1rem;
+		font-weight: 800;
+		line-height: 2rem;
+		padding: 1rem 0.5rem;
+		padding-left: 1rem;
+		text-align: start;
+		top: 20%;
+		left: 0%;
+		width: 100%;
+	}
+
+	/* END OF TRADITIONAL FINANCIAL PLANNING SECTION */
+
+	/* BEGINNING OF GESTALT PLANNING PROCESS SECTION  */
+	.gestalt-planning-div {
+		padding-top: 4rem;
+		margin-top: 4rem;
+	}
+
+	.gestalt-planning-div h2 {
+		/* font-family: 'Montserrat', sans-serif; */
+		font-size: 1.8rem;
+		width: 100%;
+
+		padding: 1.5rem 1.2rem;
+		text-align: start;
+	}
+
+	/* gestalt planning div1 */
+	.gestalt-planning-inner-div1 {
+		margin-bottom: 2rem;
+		margin-top: o;
+		padding-bottom: 3rem;
+		padding-top: 0;
+	}
+
+	.gestalt-planning-inner-div1 img {
+		width: 100%;
+		height: 300px;
+	}
+
+	h3#gestalt-planning1-text {
+		font-size: 2rem;
+		line-height: 3rem;
+		background-color: rgb(0, 0, 0, 0.2);
+		padding: 3rem 1rem;
+		padding-left: 2.5rem;
+
+		top: 15%;
+		left: 0;
+		width: 100%;
+		color: #fff;
+	}
+
+	/* end gestalt planning div1 */
+
+	/* gestalt planning div2 */
+
+	.gestalt-planning-inner-div2 {
+		margin-bottom: 0;
+	}
+
+	.gestalt-planning-inner-div2 img {
+		width: 100%;
+		height: 250px;
+		object-fit: contain;
+	}
+
+	.gestalt-planning-inner-div2 h3#gestalt-planning2-text {
+		font-size: 1.9rem;
+		line-height: 2.8rem;
 		padding: 1rem 0;
 		padding-left: 2rem;
 
