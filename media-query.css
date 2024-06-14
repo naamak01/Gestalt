@@ -1259,7 +1259,7 @@
 /* END OF MEDIA QUERY WHEN SCREEN SIZE HAS A MAX WIDTH OF 990PX */
 
 /* MEDIA QUERY WHEN SCREEN SIZE HAS A MAX WIDTH OF 935PX */
-@media (max-width: 950px) {
+@media (max-width: 932px) and (-webkit-device-pixel-ratio: 3) {
 	nav {
 		display: none;
 	}
