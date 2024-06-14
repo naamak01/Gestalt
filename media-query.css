@@ -1341,7 +1341,7 @@
 	/* Beginning of about div 2 */
 	.about-div2 {
 		background-color: rgb(25, 55, 77, 0.2);
-		height: 280vh;
+		height: 320vh;
 		box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
 		padding-top: 2rem;
 	}
@@ -1371,7 +1371,7 @@
 
 	/* Beginning of about-div3 */
 	.about-div3 {
-		height: 160vh;
+		height: 180vh;
 		margin-left: 2rem;
 		margin-right: 3rem;
 		margin-bottom: 2rem;
@@ -1391,7 +1391,7 @@
 	.polarize-main-div {
 		background-color: rgb(25, 55, 77, 0.2);
 		box-shadow: 4px 1px 4px 0 rgba(0, 0, 0, 0.4);
-		height: 280vh;
+		height: 320vh;
 		padding-top: 2rem;
 		padding-bottom: 2rem;
 		margin-bottom: 4rem;
