@@ -925,7 +925,7 @@
 /* END OF MEDIA QUERY WHEN SCREEN SIZE HAS A MAX WIDTH OF 1199PX */
 
 /* MEDIA QUERY WHEN SCREEN SIZE HAS A MAX WIDTH OF 935PX */
-@media only screen and (min-width: 920px) and (max-width: 999px) and (-webkit-device-pixel-ratio: 3) {
+@media only screen and (min-width: 920px) and (max-width: 999px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
 	nav {
 		display: none;
 	}
