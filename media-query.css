@@ -1,6 +1,6 @@
 /* MEDIA QUERY WHEN SCREEN SIZE IS ABOVE 1570*/
 
-@media (min-width: 1570px) {
+@media (min-width: 1580px) {
 	/* ABOUT SECTION */
 
 	/* ABOUT SECTION */
@@ -908,8 +908,39 @@
 
 		margin: 0 auto;
 	}
-
 	/* ENDING OF WHAT IS INCLUDED SECTION */
+
+	/* HISTORY SECTION */
+	#gestalt-method-history h2 {
+		font-size: 1.8rem;
+
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+
+		padding: 1.5rem 1.5rem;
+	}
+
+	.history-main-div {
+		display: flex;
+		flex-direction: column;
+		padding-left: 6rem;
+		padding-right: 6rem;
+	}
+
+	.first-history-section,
+	.second-history-section {
+		font-size: 1.2rem;
+		font-weight: 600;
+		line-height: 2rem;
+		text-align: start;
+	}
+
+	.second-history-section {
+		margin-top: 2rem;
+	}
+
+	/* END OF HISTORY SECTION */
 
 	/* FOOTER */
 	footer {
@@ -1573,8 +1604,42 @@
 
 		margin: 0 auto;
 	}
-
 	/* ENDING OF WHAT IS INCLUDED SECTION */
+
+	/* HISTORY SECTION */
+	#gestalt-method-history h2 {
+		font-size: 1.6rem;
+
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+
+		padding: 1.5rem 1.5rem;
+	}
+
+	.history-main-div {
+		display: flex;
+		flex-direction: column;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	.first-history-section,
+	.second-history-section {
+		font-size: 1rem;
+		font-weight: 600;
+		line-height: 2rem;
+		text-align: start;
+	}
+
+	.first-history-section {
+		padding-right: 0;
+	}
+
+	.second-history-section {
+		margin-top: 2rem;
+	}
+	/* END OF HISTORY SECTION */
 
 	/* FOOTER */
 	footer {
@@ -1790,9 +1855,7 @@
 		width: 80%;
 		color: #fff;
 	}
-
 	/* end gestalt planning div1 */
-
 	/* gestalt planning div2 */
 
 	.gestalt-planning-inner-div2 {
@@ -1817,11 +1880,9 @@
 		color: #fff;
 	}
 	/*end of gestalt planning div2 */
-
 	/* END OF GESTALT PLANNING PROCESS SECTION  */
 
 	/* BEGINNING OF DISCOVER BUTTON SECTION */
-
 	.discover-button h2 {
 		/* font-family: 'Montserrat', sans-serif; */
 		font-size: 1.8rem;
@@ -1865,11 +1926,9 @@
 		padding: 2rem 1.3rem;
 		padding-left: 2rem;
 	}
-
 	/* ENDING OF ACHIEVE TOGETHER SECTION */
 
 	/* WHAT IS INCLUDED SECTION */
-
 	.what-is-included-main-div ol li {
 		font-size: 1rem;
 		font-weight: 600;
@@ -1903,8 +1962,43 @@
 
 		margin: 0 auto;
 	}
-
 	/* ENDING OF WHAT IS INCLUDED SECTION */
+
+	/* HISTORY SECTION */
+	#gestalt-method-history h2 {
+		font-size: 1.6rem;
+
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+
+		padding: 1.5rem 1.5rem;
+	}
+
+	.history-main-div {
+		display: flex;
+		flex-direction: column;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.first-history-section,
+	.second-history-section {
+		font-size: 1rem;
+		font-weight: 600;
+		line-height: 2rem;
+		text-align: start;
+	}
+
+	.first-history-section {
+		padding-right: 0;
+	}
+
+	.second-history-section {
+		margin-top: 2rem;
+	}
+
+	/* END OF HISTORY SECTION */
 
 	/* FOOTER */
 	footer {
@@ -2230,8 +2324,43 @@
 
 		margin: 0 auto;
 	}
-
 	/* ENDING OF WHAT IS INCLUDED SECTION */
+
+	/* HISTORY SECTION */
+	#gestalt-method-history h2 {
+		font-size: 1.6rem;
+
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+
+		padding: 1.5rem 1.5rem;
+	}
+
+	.history-main-div {
+		display: flex;
+		flex-direction: column;
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+
+	.first-history-section,
+	.second-history-section {
+		font-size: 1rem;
+		font-weight: 600;
+		line-height: 2rem;
+		text-align: start;
+	}
+
+	.first-history-section {
+		padding-right: 0;
+	}
+
+	.second-history-section {
+		margin-top: 2rem;
+	}
+
+	/* END OF HISTORY SECTION */
 
 	/* FOOTER */
 	footer {
