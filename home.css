@@ -784,8 +784,8 @@ h2#traditional-text {
 }
 
 .history-main-div {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+	display: flex;
+	flex-direction: column;
 	padding-left: 6rem;
 	padding-right: 6rem;
 }
@@ -800,6 +800,7 @@ h2#traditional-text {
 
 .first-history-section {
 	padding-right: 3rem;
+	margin-bottom: 2rem;
 }
 
 .second-history-section p {

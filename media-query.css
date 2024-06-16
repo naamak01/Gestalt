@@ -2158,12 +2158,12 @@
 	}
 
 	h2#traditional-text {
-		font-size: 1.8rem;
+		font-size: 2rem;
 		font-weight: 800;
 		line-height: 2.5rem;
 		padding: 1rem 0.5rem;
 		text-align: start;
-		top: 30%;
+		top: 20%;
 		left: 10%;
 		width: 80%;
 	}
@@ -2847,7 +2847,7 @@
 	}
 
 	h2#traditional-text {
-		font-size: 1.6rem;
+		font-size: 1.8rem;
 		font-weight: 800;
 		line-height: 2.2rem;
 		padding: 1rem 0.5rem;
@@ -3502,12 +3502,12 @@
 	}
 
 	h2#traditional-text {
-		font-size: 1.2rem;
+		font-size: 1.5rem;
 		font-weight: 800;
 		line-height: 2rem;
 		padding: 1rem 0.5rem;
 		text-align: start;
-		top: 20%;
+		top: 15%;
 		left: 0%;
 		width: 100%;
 	}
@@ -3828,13 +3828,13 @@
 	}
 
 	h2#traditional-text {
-		font-size: 1.1rem;
+		font-size: 1.5rem;
 		font-weight: 800;
 		line-height: 2rem;
 		padding: 1rem 0.5rem;
 		padding-left: 1rem;
 		text-align: start;
-		top: 20%;
+		top: 15%;
 		left: 0%;
 		width: 100%;
 	}
@@ -3897,7 +3897,7 @@
 	}
 
 	.gestalt-planning-inner-div2 h3#gestalt-planning2-text {
-		font-size: 1.9rem;
+		font-size: 2rem;
 		line-height: 2.8rem;
 		padding: 1rem 0;
 		padding-left: 2rem;
