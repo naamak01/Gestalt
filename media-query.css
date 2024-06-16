@@ -3762,7 +3762,7 @@
 	/* Beginning of about div 2 */
 	.about-div2 {
 		background-color: rgb(25, 55, 77, 0.2);
-		height: 75vh;
+		height: 85vh;
 		box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.4);
 		padding-top: 2rem;
 	}
@@ -3812,7 +3812,7 @@
 	.polarize-main-div {
 		background-color: rgb(25, 55, 77, 0.2);
 		box-shadow: 4px 1px 4px 0 rgba(0, 0, 0, 0.4);
-		height: 75vh;
+		height: 85vh;
 		padding-top: 2rem;
 		padding-bottom: 2rem;
 		margin-bottom: 4rem;
