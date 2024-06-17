@@ -2153,17 +2153,17 @@
 	/* BEGINNING OF TRADITIONAL FINANCIAL PLANNING SECTION */
 	.traditional-div img {
 		width: 100%;
-		height: 400px;
+		height: 580px;
 		object-fit: cover;
 	}
 
 	h2#traditional-text {
-		font-size: 2rem;
+		font-size: 2.7rem;
 		font-weight: 800;
-		line-height: 2.5rem;
-		padding: 1rem 0.5rem;
+		line-height: 3.2rem;
+		padding: 1rem 1rem;
 		text-align: start;
-		top: 20%;
+		top: 25%;
 		left: 10%;
 		width: 80%;
 	}
@@ -2515,17 +2515,17 @@
 	/* BEGINNING OF TRADITIONAL FINANCIAL PLANNING SECTION */
 	.traditional-div img {
 		width: 100%;
-		height: 380px;
+		height: 540px;
 		object-fit: cover;
 	}
 
 	h2#traditional-text {
-		font-size: 1.8rem;
+		font-size: 2.5rem;
 		font-weight: 800;
-		line-height: 2.5rem;
-		padding: 1rem 0.5rem;
+		line-height: 3rem;
+		padding: 1rem 1rem;
 		text-align: start;
-		top: 24%;
+		top: 15%;
 		left: 10%;
 		width: 80%;
 	}
@@ -2842,14 +2842,14 @@
 	/* BEGINNING OF TRADITIONAL FINANCIAL PLANNING SECTION */
 	.traditional-div img {
 		width: 100%;
-		height: 300px;
+		height: 520px;
 		object-fit: cover;
 	}
 
 	h2#traditional-text {
-		font-size: 1.8rem;
+		font-size: 2.3rem;
 		font-weight: 800;
-		line-height: 2.2rem;
+		line-height: 3rem;
 		padding: 1rem 0.5rem;
 		text-align: start;
 		top: 21%;
@@ -3170,17 +3170,17 @@
 	/* BEGINNING OF TRADITIONAL FINANCIAL PLANNING SECTION */
 	.traditional-div img {
 		width: 100%;
-		height: 300px;
+		height: 520px;
 		object-fit: cover;
 	}
 
 	h2#traditional-text {
-		font-size: 1.6rem;
+		font-size: 2.2rem;
 		font-weight: 800;
-		line-height: 2.2rem;
+		line-height: 3rem;
 		padding: 1rem 0.5rem;
 		text-align: start;
-		top: 17%;
+		top: 15%;
 		left: 5%;
 		width: 90%;
 	}
@@ -3497,14 +3497,14 @@
 	/* BEGINNING OF TRADITIONAL FINANCIAL PLANNING SECTION */
 	.traditional-div img {
 		width: 100%;
-		height: 250px;
-		object-fit: contain;
+		height: 520px;
+		object-fit: cover;
 	}
 
 	h2#traditional-text {
-		font-size: 1.5rem;
+		font-size: 2.2rem;
 		font-weight: 800;
-		line-height: 2rem;
+		line-height: 3rem;
 		padding: 1rem 0.5rem;
 		text-align: start;
 		top: 15%;
@@ -3823,18 +3823,18 @@
 	/* BEGINNING OF TRADITIONAL FINANCIAL PLANNING SECTION */
 	.traditional-div img {
 		width: 100%;
-		height: 250px;
-		object-fit: contain;
+		height: 520px;
+		object-fit: cover;
 	}
 
 	h2#traditional-text {
-		font-size: 1.5rem;
+		font-size: 2.2rem;
 		font-weight: 800;
-		line-height: 2rem;
-		padding: 1rem 0.5rem;
+		line-height: 2.5rem;
+		padding: 1rem 1rem;
 		padding-left: 1rem;
 		text-align: start;
-		top: 15%;
+		top: 12%;
 		left: 0%;
 		width: 100%;
 	}
@@ -3999,7 +3999,11 @@
 
 	/* FOOTER */
 	footer {
-		height: 35vh;
+		height: 45vh;
+	}
+
+	.footer-address {
+		text-align: center;
 	}
 
 	.footer-detail {
