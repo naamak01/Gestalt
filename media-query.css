@@ -4325,15 +4325,15 @@
 	.second-history-section {
 		display: flex;
 		flex-direction: column;
-		align-items: center;
 		margin-top: 4rem;
 	}
 
 	.second-history-section img {
-		width: 420px;
-		height: 450px;
+		width: 380px;
+		height: 500px;
 		object-fit: cover;
 		margin-bottom: 4rem;
+		margin-left: 3rem;
 	}
 
 	.second-history-section p {
