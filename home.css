@@ -170,7 +170,6 @@ nav ul li a:hover .icon span {
 	color: rgba(25, 55, 77, 0.9);
 	background-color: #ffffff;
 	border-bottom: 2px solid rgba(25, 55, 77, 0.9);
-	border-bottom-width: 100%;
 }
 
 .nav-menu li a:active {
