@@ -3632,10 +3632,11 @@
 	}
 
 	.second-history-section img {
-		width: 100%;
+		width: 380px;
 		height: 500px;
 		object-fit: cover;
 		margin-bottom: 4rem;
+		margin-left: 3rem;
 	}
 
 	.second-history-section p {
@@ -3981,10 +3982,11 @@
 	}
 
 	.second-history-section img {
-		width: 100%;
-		height: 450px;
+		width: 380px;
+		height: 500px;
 		object-fit: cover;
 		margin-bottom: 4rem;
+		margin-left: 3rem;
 	}
 
 	.second-history-section p {
