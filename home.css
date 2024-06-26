@@ -809,7 +809,7 @@ h2#traditional-text {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	justify-content: center;
-	align-items: center;
+	align-items: top;
 	margin-top: 2rem;
 }
 
