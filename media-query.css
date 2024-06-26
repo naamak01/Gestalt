@@ -994,11 +994,12 @@
 		margin-top: 4rem;
 	}
 
-	img .history-image {
+	.second-history-section img {
 		width: 800px;
 		height: 640px;
 		object-fit: cover;
-		margin-bottom: 4rem;
+		margin-bottom: 2rem;
+		padding-left: 3rem;
 	}
 
 	.second-history-section p {
@@ -1386,14 +1387,15 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		margin-top: 4rem;
+		margin-top: 2rem;
 	}
 
 	.second-history-section img {
 		width: 800px;
 		height: 640px;
 		object-fit: cover;
-		margin-bottom: 4rem;
+		margin-bottom: 2rem;
+		padding-left: 3rem;
 	}
 
 	.second-history-section p {
@@ -1807,18 +1809,15 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		margin-top: 4rem;
-
-		margin-left: auto;
-		margin-right: auto;
-		width: 90%;
+		margin-top: 2rem;
 	}
 
 	.second-history-section img {
 		width: 100%;
 		height: 600px;
 		object-fit: cover;
-		margin-bottom: 4rem;
+		margin-bottom: 2rem;
+		padding-left: 2.5rem;
 	}
 
 	.second-history-section p {
@@ -2190,18 +2189,15 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		margin-top: 4rem;
-
-		margin-left: auto;
-		margin-right: auto;
-		width: 90%;
+		margin-top: 2rem;
 	}
 
 	.second-history-section img {
 		width: 100%;
 		height: 600px;
 		object-fit: cover;
-		margin-bottom: 4rem;
+		margin-bottom: 2rem;
+		padding-left: 2rem;
 	}
 
 	.second-history-section p {
@@ -2932,13 +2928,12 @@
 	}
 
 	.second-history-section img {
-		width: 600px;
-		height: 580px;
+		width: 500px;
+		height: 550px;
 		object-fit: cover;
 		margin-bottom: 2rem;
 		padding-left: 1rem;
 	}
-
 	.second-history-section p {
 		margin-bottom: 1.5rem;
 		padding-top: 2rem;
@@ -3283,8 +3278,8 @@
 	}
 
 	.second-history-section img {
-		width: 520px;
-		height: 480px;
+		width: 450px;
+		height: 500px;
 		object-fit: cover;
 		margin-bottom: 2rem;
 		padding-left: 1rem;
@@ -3635,8 +3630,8 @@
 	}
 
 	.second-history-section img {
-		width: 470px;
-		height: 420px;
+		width: 420px;
+		height: 450px;
 		object-fit: cover;
 		margin-bottom: 2rem;
 		padding-left: 1rem;
@@ -3985,8 +3980,8 @@
 	}
 
 	.second-history-section img {
-		width: 450px;
-		height: 390px;
+		width: 390px;
+		height: 370px;
 		object-fit: cover;
 		margin-bottom: 2rem;
 		padding-left: 1rem;
@@ -4334,7 +4329,7 @@
 	}
 
 	.second-history-section img {
-		width: 390px;
+		width: 380px;
 		height: 350px;
 		object-fit: cover;
 		margin-bottom: 2rem;
